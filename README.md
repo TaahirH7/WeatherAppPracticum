@@ -8,6 +8,13 @@ Power Point link [ST10445196_IMAD5112_Practicum.pptx](https://github.com/user-at
 
 This app is a weather app it provides userd would weather information for the week ahead and calculates average weather
 
+<<<<<<< HEAD
+=======
+Ms link to pseucode [ST10445196_IMAD5112_practicum.docx](https://github.com/user-attachments/files/15764536/ST10445196_IMAD5112_practicum.docx)
+
+
+
+>>>>>>> origin/master
 Pseuocode
 Splash screen
 

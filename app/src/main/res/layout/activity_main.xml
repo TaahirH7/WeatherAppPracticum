@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accentColor"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalculateAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:text="Calculate Average"
+        android:textColorHighlight="#090909"
+        android:textColorLink="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <Button
+        android:id="@+id/btnViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:text="View Details"
+        android:textColorHighlight="#090909"
+        android:textColorLink="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <Button
+        android:id="@+id/btnClearData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:text="Clear Data"
+        android:textColorHighlight="#090909"
+        android:textColorLink="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:text="Exit"
+        android:textColorHighlight="#090909"
+        android:textColorLink="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <TextView
+        android:id="@+id/AverageTemp"
+        android:layout_width="378dp"
+        android:layout_height="80dp"
+        android:text="AVERAGE TEMPERATURE FOR THE WEEK:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="147dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:hint="Min Temperature"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <EditText
+        android:id="@+id/txtTimeAm"
+        android:layout_width="147dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Max Temperature"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtTimePm"
+        android:layout_width="147dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Weather Candition"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTimeAm"
+        app:layout_constraintVertical_bias="0.013" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
